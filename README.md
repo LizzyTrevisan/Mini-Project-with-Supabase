@@ -396,7 +396,7 @@ with check(auth.uid() = id);
 
 8) In the localhost page, create an admin account. Keep in mind the role created in this project will always be a student. It will be manually changed on Supabase next.
 
-   ![BTNS.png](https://raw.githubusercontent.com/LizzyTrevisan/Css_Btns/refs/heads/main/BTNS.png)
+   ![BTNS.png](https://raw.githubusercontent.com/LizzyTrevisan/Mini-Project-with-Supabase/refs/heads/main/Screenshot%202025-11-26%20001440.png)
    
 10)  Finally, go to Table Editor -> br>
     - Find the user as admin -> <br>
