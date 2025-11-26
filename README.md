@@ -1,4 +1,4 @@
-# Simple Mini Supabase Project (TEsting Authentication  + Supabase DB
+# Simple Mini Supabase Project (Testing Authentication  + Supabase DB
 
 This project is a simple web to test and explore Supabase as DB and automatic form of Authentication.
 
