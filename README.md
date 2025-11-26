@@ -9,6 +9,10 @@ FIRST MAKE THESE FOLLOWING CHANGES:
 1) Make sure you create the following:<br>
 
 rename .env.example <b> into <b> .env.local -> <br> then go to your supabase -> <br>
+create a .gitignore file from app root -> <br>
+add this: .env.local 
+--
+Then go to Supabase  and follow this: <br>
 Project Settings -> <br> Data API  -> <br> copy the Project URL ->  paste it as quotes into your .env.local file where it says Supabase URL.
           -> <br> then on Supabase again go to API Keys -> <br> Legacy anon -> <br> copy anon public  -> <br> go back to .env.local -> <br> add into supabase anon key within quotes.
 
