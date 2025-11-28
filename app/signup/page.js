@@ -21,6 +21,7 @@ export default function SignupPage() {
     const { data, error } = await supabase.auth.signUp({
       email,
       password,
+      email,
     });
 
     if (error) {
@@ -31,7 +32,6 @@ export default function SignupPage() {
 
     const user = data.user;
 
- 
     if (user) {
       const { error: profileError } = await supabase
         .from("profiles")
